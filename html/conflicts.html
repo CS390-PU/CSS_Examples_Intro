@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Conflicts</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="module" src="../js/script.js"></script>
+    <style>
+      body {
+        color: blue;
+        font-weight: bold;
+      }
+      main {
+        color: purple;
+      }
+      p {
+        color: black;
+      }
+    </style>
+  </head>
+  <body> <!-- content of HTML doc ... only 1 body -->
+    <nav>
+      <a href="/">Home</a>
+      <a href="./conflicts.html" aria-current="page">Conflicts</a>
+      <a href="./basicselectors.html">Selectors</a>
+
+    </nav>
+    <main> <!-- unique content minus navs, footers ... only 1 main -->
+      <p>Hello, <span style="color: green">World!!</span></p>
+      <p style="color: inherit">Good Day</p>
+    </main>
+  </body>
+</html>

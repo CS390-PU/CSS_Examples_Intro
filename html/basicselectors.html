@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basic Selectors</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="module" src="../js/script.js"></script>
+    <style>
+      p {color: blue;}
+      p.gr {color: green;}
+      p#second {color:orange;}
+      p span {color: red;}
+      p:hover {background-color: yellow;}
+    </style>
+  </head>
+  <body> <!-- content of HTML doc ... only 1 body -->
+    <nav>
+      <a href="/">Home</a>
+      <a href="./conflicts.html" aria-current="page">Conflicts</a>
+      <a href="./basicselectors.html">Selectors</a>
+    </nav>
+    <main> <!-- unique content minus navs, footers ... only 1 main -->
+      <p>Children of Men</p>
+      <p id="second">Her</p>
+      <p><span>Attack</span> the Block</p>
+      <p class=""gr">Moon</p>
+    </main>
+  </body>
+</html>
